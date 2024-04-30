@@ -1,6 +1,6 @@
 import bppy as bp
 
-from debugger.bp_server.listener import MonitoringListener
+from debugger.server.listener import MonitoringListener
 
 # BEvents functions for x and o moves
 x = lambda row, col: bp.BEvent('X' + str(row) + str(col))

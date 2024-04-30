@@ -3,7 +3,7 @@ from typing import Dict, Callable
 
 from bppy import *
 
-from debugger.bp_server.listener import MonitoringListener
+from debugger.server.listener import MonitoringListener
 
 
 class TARGET:

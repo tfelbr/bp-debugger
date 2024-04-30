@@ -8,7 +8,7 @@ from typing import Dict, Callable, Any, List, Optional
 from bppy import BProgramRunnerListener, BProgram, BEvent, All, EventSetList, EventSet, EmptyEventSet
 from flask import Flask, Response, request
 
-from debugger.bp_server.break_point import BreakpointRepository, Breakpoint, DifferenceBreakpoint
+from debugger.server.break_point import BreakpointRepository, Breakpoint, DifferenceBreakpoint
 
 
 def _format_sse(data: str, event=None) -> str:

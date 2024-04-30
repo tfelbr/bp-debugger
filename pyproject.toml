@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "gb_tom_felber"
+version = "0.0.0"
+description = ""
+authors = [
+    "Tom Felber",
+]
+
+[tool.poetry.build]
+generate-setup-file = false
+
+[tool.poetry.dependencies]
+python = ">=3.10,<4"
+pyecore = "^0.13.1"
+pyecoregen = "^0.5.1"
+bppy = "~1"
+flask = "~3"
+requests = "~2"
+
+[tool.poetry.dev-dependencies]
+mypy = "~1"
+pytest = "~7"
+
+[tool.mypy]
+strict = true
+warn_unused_ignores = true
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

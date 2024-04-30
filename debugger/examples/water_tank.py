@@ -162,9 +162,3 @@ if __name__ == "__main__":
         listener=listener
     )
     b_program.run()
-
-# debugging
-# temporal runtime models
-# eclipse hawk
-# beispiel erweitern, objekte einbauen
-# trace analysis

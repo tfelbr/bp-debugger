@@ -160,8 +160,8 @@ cython_debug/
 
 .svelte-kit
 node_modules
-gb/bp_client/backend/templates/
-gb/bp_client/backend/static/
+debugger/client/backend/templates/
+debugger/client/backend/static/
 
 gb.aux
 gb.bbl
